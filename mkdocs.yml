@@ -127,7 +127,7 @@ plugins:
       sort_file: true
       sort_directory: true
   - git-committers:
-      enabled: !ENV [CI, false]
+      enabled: !ENV [GITHUB_ACTIONS, false]
       repository: initchu/my-mkdocs
       branch: main
       exclude:
@@ -138,7 +138,7 @@ plugins:
         - blog/posts/wkw.md
         - about/link.md
   - git-revision-date-localized:
-      enabled: !ENV [CI, false]
+      enabled: !ENV [GITHUB_ACTIONS, false]
       type: iso_date
       enable_creation_date: false
       exclude:
