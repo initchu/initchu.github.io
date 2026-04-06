@@ -1,0 +1,9 @@
+mkdocs-material
+mkdocs-git-revision-date-localized-plugin
+mkdocs-git-authors-plugin
+mkdocs-git-committers-plugin-2
+mkdocs-rss-plugin
+jieba
+mkdocs-statistics-plugin
+mkdocs-include-dir-to-nav
+mkdocs-markdownextradata-plugin
