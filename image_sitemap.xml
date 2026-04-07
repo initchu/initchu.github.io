@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.chucz.asia/</loc>
+    <image:image>
+      <image:loc>https://www.chucz.asia/images/proc2.webp</image:loc>
+      <image:title>Initchu Site Asset - proc2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.chucz.asia/about/me/</loc>
+    <image:image>
+      <image:loc>https://www.chucz.asia/images/proc1.webp</image:loc>
+      <image:title>Initchu Site Asset - proc1</image:title>
+    </image:image>
+  </url>
+</urlset>
