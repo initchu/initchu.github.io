@@ -2,6 +2,8 @@
 site_name: 褚成志的分享站 #your site name 显示在左上角
 site_url: https://www.chucz.asia
 site_author: 褚成志 # your name
+site_description: 褚成志的个人分享站 - 专注于云原生、后端开发与 AGI 技术。分享关于 Kubernetes, Spring, 算法及 AGI 相关的技术文章与见解。
+site_keywords: 褚成志, 云原生, Kubernetes, Spring Cloud, AGI, AI, 技术博客, 后端开发, 程序员
 #[UI]
 theme:
   name: material
@@ -81,6 +83,7 @@ extra:
       link: https://www-chucz-asia.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=zh-TW&_x_tr_hl=zh-CN&_x_tr_pto=wapp
       lang: zh-TW
   generator: true #是否删除页脚显示“使用 MkDocs 材料制造”
+  social_image: images/proc1.webp  # 社交媒体预览图
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/initchu
