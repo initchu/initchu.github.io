@@ -66,7 +66,7 @@ theme:
     repo: fontawesome/brands/github #右上角图标
     logo: logo
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
-repo_url: https://github.com/initchu/my-mkdocs.git # 右上角点击跳转的链接
+repo_url: https://github.com/initchu/initchu.github.io # 右上角点击跳转的链接
 repo_name: Mkdocs-褚成志 # 右上角的名字
 
 copyright: Copyright &copy; 2022~2024 褚成志/All Rights Reserved. # 左下角的版权声明
@@ -128,7 +128,7 @@ plugins:
       sort_directory: true
   - git-committers:
       enabled: !ENV [GITHUB_ACTIONS, false]
-      repository: initchu/my-mkdocs
+      repository: initchu/initchu.github.io
       branch: main
       exclude:
         - index.md
