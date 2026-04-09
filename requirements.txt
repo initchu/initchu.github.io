@@ -1,8 +1,8 @@
-mkdocs>=1.6.0
-mkdocs-material>=9.5.0
-mkdocs-git-revision-date-localized-plugin>=1.2.0
-mkdocs-git-committers-plugin-2>=2.3.0
-mkdocs-rss-plugin>=1.12.0
-jieba>=0.42.1
-mkdocs-include-dir-to-nav>=1.2.0
-mkdocs-markdownextradata-plugin>=0.2.5
+mkdocs==1.6.1
+mkdocs-material==9.7.6
+mkdocs-git-revision-date-localized-plugin==1.5.1
+mkdocs-git-committers-plugin-2==2.5.0
+mkdocs-rss-plugin==1.17.9
+jieba==0.42.1
+mkdocs-include-dir-to-nav==1.2.0
+mkdocs-markdownextradata-plugin==0.2.6
