@@ -3,7 +3,7 @@ site_name: 褚成志的分享站 #your site name 显示在左上角
 site_url: https://www.chucz.asia
 site_author: 褚成志 # your name
 site_description: 褚成志的个人分享站 - 专注于云原生、后端开发与 AGI 技术。分享关于 Kubernetes, Spring, 算法及 AGI 相关的技术文章与见解。
-site_keywords: 褚成志, 云原生, Kubernetes, Spring Cloud, AGI, AI, 技术博客, 后端开发, 程序员
+# site_keywords 已移至 meta tags（MkDocs 不支持此字段）
 #[UI]
 theme:
   name: material
@@ -161,8 +161,7 @@ plugins:
       #     case: lower
       pagination_url_format: "page/{page}"
       authors_file: "{blog}/.authors.yml" #作者信息
-  - tags:
-      tags_file: tag.md #分类标签
+  - tags: {} #分类标签
 
 markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/ 和 https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
   - abbr
@@ -239,7 +238,6 @@ extra_css:
   # [Navigtion]
 nav:
   - 主页: index.md
-  - 标签: tag.md
   - Blogger:
       - index: blog/index.md
   - 后端: blog/backend
