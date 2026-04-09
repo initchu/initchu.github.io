@@ -1,6 +1,6 @@
 #[Info]
 site_name: 褚成志的分享站 #your site name 显示在左上角
-site_url: https://www.chucz.asia
+site_url: https://doc.chucz.asia
 site_author: 褚成志 # your name
 site_description: 褚成志的个人分享站 - 专注于云原生、后端开发与 AGI 技术。分享关于 Kubernetes, Spring, 算法及 AGI 相关的技术文章与见解。
 # site_keywords 已移至 meta tags（MkDocs 不支持此字段）
