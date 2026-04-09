@@ -1,5 +1,8 @@
 {
   "buildCommand": "pip3 install -r requirements.txt && mkdocs build -d public --clean",
   "outputDirectory": "public",
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':(exclude)docs/CNAME'"
+  "github": {
+    "silent": false,
+    "autoJobCancelation": true
+  }
 }
