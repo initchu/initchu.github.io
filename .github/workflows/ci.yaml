@@ -35,6 +35,8 @@ jobs:
       # 仅在 push 到 main 时部署到 GitHub Pages
       - name: Deploy to GitHub Pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: mkdocs gh-deploy --force --cname doc.chucz.asia
+        run: |
+          echo "doc.chucz.asia" > site/CNAME
+          mkdocs gh-deploy --force
         env:
           GITHUB_ACTIONS: true
