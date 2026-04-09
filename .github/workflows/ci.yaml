@@ -9,7 +9,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -29,5 +29,12 @@ jobs:
 
       - name: Build site
         run: mkdocs build --clean
+        env:
+          GITHUB_ACTIONS: true
+
+      # 仅在 push 到 main 时部署到 GitHub Pages
+      - name: Deploy to GitHub Pages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: mkdocs gh-deploy --force --cname doc.chucz.asia
         env:
           GITHUB_ACTIONS: true
